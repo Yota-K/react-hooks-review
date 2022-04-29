@@ -13,7 +13,7 @@ const Counter2: React.FC = () => {
   // レンダリングされるたびにconsole.log('レンダーされました。');が実行される。
   // componentDidMount、componentDidUpdate、componentWillUnmountを全指定したようなイメージ。
   useEffect(() => {
-    console.log('レンダーされました。');
+    console.log('useEffectSampleがレンダーされました。');
 
     // 第2引数に何も渡さない状態でstateを変更すると無限ループを引き起こす。
     //
